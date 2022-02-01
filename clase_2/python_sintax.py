@@ -52,7 +52,7 @@ b = int(input("ingrese b :"))
 
 print(f' a+b es {a+b}')
 """
-
+"""
 #estructura de control
 año = 2001
 
@@ -70,9 +70,20 @@ while edad<= 17:
     print(f'menor de edad {edad}')
     edad = edad + 1
     print(f'mayor de edad {edad}')
+    """
     
-edad = 10
+edad=20
+
 while edad<= 17:
     print(f'menor de edad {edad}')
     edad = edad + 1
+    print("edad")
+    while edad <=15:
+        print("edad 2")
+        edad+=2
+        while edad <=16:
+            print("edad 3")
+            if edad>12:
+                print("")
+                
     print(f'mayor de edad {edad}')
