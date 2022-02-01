@@ -61,6 +61,7 @@ while salir !=True:
         new_alumno = input("Ingrese Nombre Completo de Alumno:")
         list.append(new_alumno)
     elif option == 3:
+        alumno_quitar=input("ingrese el nomre a quitar")2
         list.remove(alumno_quitar)
 
     elif option == 4:
