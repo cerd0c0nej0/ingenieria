@@ -62,4 +62,17 @@ elif año >= 1989:
     print("año es mayor a 1989")
 else:
     print("no cumple con el rango de 1989 a 2022")
+
+#estructura de control while
+
+edad = 10
+while edad<= 17:
+    print(f'menor de edad {edad}')
+    edad = edad + 1
+    print(f'mayor de edad {edad}')
     
+edad = 10
+while edad<= 17:
+    print(f'menor de edad {edad}')
+    edad = edad + 1
+    print(f'mayor de edad {edad}')
