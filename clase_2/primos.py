@@ -7,8 +7,8 @@ Created on Tue Feb  1 16:43:37 2022
 list = []
 n = 1   #valores del 1 al 100
 while n <= 100: #bucle de numeros de 1 al 100
-    c = 1 # contador de divisore
-    x = 0 # incremento divisor
+    c = 1 # div
+    x = 0 #contador div
     while c <= n:
         if n % c == 0: 
             x = x + 1
