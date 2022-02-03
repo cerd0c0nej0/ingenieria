@@ -19,5 +19,12 @@ funcion_2()
 #no usasr lista.pop()
 
 lista=[2,3,4,9]
-def pop(
+def pop(lista):
+    def pop(listaaux):
+        listaaux = pop(lista)
+        print({listaaux})
+        
+        
+        
+        
     
